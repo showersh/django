@@ -10,6 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/{{ docs_version }}/ref/settings/
 """
 
+# 使用pathlib path  获得 BASE_DIR 路径
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
