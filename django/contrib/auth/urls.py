@@ -6,6 +6,19 @@
 from django.contrib.auth import views
 from django.urls import path
 
+"""
+登录
+登出
+
+更改密码
+更改完成
+
+重置密码
+重置密码完成
+重置 token
+重置完成
+"""
+
 urlpatterns = [
     path('login/', views.LoginView.as_view(), name='login'),
     path('logout/', views.LogoutView.as_view(), name='logout'),
